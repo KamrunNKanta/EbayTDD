@@ -28,7 +28,7 @@ public void setUp() {
 
 @AfterMethod
 public void tearUp() {
-//	driver.quit();
+	driver.quit();
 }
 public void initElement() {
 	productPage=new ProductPage(driver);
