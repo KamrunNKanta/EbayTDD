@@ -8,12 +8,9 @@ public class ProductSearchTest extends BaseClass {
 	@Test
 	public void productSearchTest() {
 
-		waits.waitUntilClickable(homePage.categoryButton);
-		// homePage.categoryButton.click();
 		commonMethods.click(homePage.categoryButton);
-		waits.waituntilVisible(homePage.electronicsClick);
 		commonMethods.click(homePage.electronicsClick);
-
+		commonMethods.writeText(electronicsPage.searchField, "iphone");
+		commonMethods.click(electronicsPage.searchButton);
 	}
-
 }

@@ -10,14 +10,16 @@ import org.testng.annotations.BeforeMethod;
 
 import ebay.qa.common.CommonMethods;
 import ebay.qa.common.CommonWaits;
+import ebay.qa.pages.ElectronicsPage;
 import ebay.qa.pages.HomePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	public static WebDriver driver;
 	public static WebDriverWait wait;
-	public CommonWaits waits;
+	public static CommonWaits waits;
 	public HomePage homePage;
+	public ElectronicsPage electronicsPage;
 	public CommonMethods commonMethods;
 
 	@BeforeMethod
@@ -42,7 +44,9 @@ public class BaseClass {
 
 	public void initElement() {
 		homePage = new HomePage(driver);
+		electronicsPage = new ElectronicsPage(driver);
 		waits = new CommonWaits();
 		commonMethods = new CommonMethods();
+
 	}
 }
