@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13930" started-at="2022-01-28T20:22:29Z" finished-at="2022-01-28T20:22:42Z">
+  <suite name="Default suite" duration-ms="13151" started-at="2022-02-01T00:13:25Z" finished-at="2022-02-01T00:13:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13930" started-at="2022-01-28T20:22:29Z" finished-at="2022-01-28T20:22:42Z">
+    <test name="Default test" duration-ms="13151" started-at="2022-02-01T00:13:25Z" finished-at="2022-02-01T00:13:38Z">
       <class name="com.qa.Ebay.products.ProductSearchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Ebay.products.ProductSearchTest@161479c6]" name="setUp" is-config="true" duration-ms="6772" started-at="2022-01-28T20:22:29Z" finished-at="2022-01-28T20:22:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Ebay.products.ProductSearchTest@161479c6]" name="setUp" is-config="true" duration-ms="5815" started-at="2022-02-01T00:13:25Z" finished-at="2022-02-01T00:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="productSearchTest()[pri:0, instance:com.qa.Ebay.products.ProductSearchTest@161479c6]" name="productSearchTest" duration-ms="6471" started-at="2022-01-28T20:22:35Z" finished-at="2022-01-28T20:22:42Z">
+        <test-method status="PASS" signature="productSearchTest()[pri:0, instance:com.qa.Ebay.products.ProductSearchTest@161479c6]" name="productSearchTest" duration-ms="6609" started-at="2022-02-01T00:13:31Z" finished-at="2022-02-01T00:13:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearchTest -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.qa.Ebay.products.ProductSearchTest@161479c6]" name="tearUp" is-config="true" duration-ms="663" started-at="2022-01-28T20:22:42Z" finished-at="2022-01-28T20:22:42Z">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.qa.Ebay.products.ProductSearchTest@161479c6]" name="tearUp" is-config="true" duration-ms="704" started-at="2022-02-01T00:13:37Z" finished-at="2022-02-01T00:13:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->

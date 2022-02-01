@@ -20,7 +20,7 @@ public class BaseClass {
 	public static CommonWaits waits;
 	public HomePage homePage;
 	public ElectronicsPage electronicsPage;
-	public CommonMethods commonMethods;
+	public static CommonMethods commonMethods;
 
 	@BeforeMethod
 	public void setUp() {

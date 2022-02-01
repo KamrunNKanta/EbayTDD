@@ -1,5 +1,7 @@
 package ebay.qa.common;
 
+import java.util.NoSuchElementException;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
@@ -37,11 +39,12 @@ public class CommonMethods {
 		try {
 			BaseClass.waits.waitUntilClickable(element);
 			element.sendKeys(value);
-			Java_Logger.getLog(element +"get Text" + element.getText());
+			Java_Logger.getLog(element +"Text Value Entered" + value);
 		} catch (NullPointerException e) {
 			e.printStackTrace();
 		Java_Logger.getLog(element +"element not found");
-		Assert.fail();
+		
+	Assert.fail();
 		}
 	}
 
